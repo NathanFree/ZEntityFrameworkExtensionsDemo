@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201027044409_ChangingOnModelCreating.cs" />
+    <Compile Remove="Migrations\20201027044409_ChangingOnModelCreating.Designer.cs" />
+    <Compile Remove="Migrations\20201027044642_ChangingOnModelCreating.cs" />
+    <Compile Remove="Migrations\20201027044642_ChangingOnModelCreating.Designer.cs" />
+    <Compile Remove="Migrations\20201027044823_ChangingOnModelCreating.cs" />
+    <Compile Remove="Migrations\20201027044823_ChangingOnModelCreating.Designer.cs" />
+    <Compile Remove="Migrations\20201027044916_ChangingOnModelCreating.cs" />
+    <Compile Remove="Migrations\20201027044916_ChangingOnModelCreating.Designer.cs" />
+    <Compile Remove="Migrations\20201027045104_ChangingOnModelCreating.cs" />
+    <Compile Remove="Migrations\20201027045104_ChangingOnModelCreating.Designer.cs" />
+    <Compile Remove="Migrations\20201027045138_ChangingOnModelCreating.cs" />
+    <Compile Remove="Migrations\20201027045138_ChangingOnModelCreating.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Core" Version="1.1.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="3.0.104" />
+  </ItemGroup>
+
+</Project>
